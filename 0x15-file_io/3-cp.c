@@ -23,7 +23,7 @@ char *create_buffer(char *file)
 			"Error: Can't write to %s\n", file);
 		exit(99);
 	}
-	
+
 	return (buffer);
 }
 
@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(98);
 		}
-		
+
 		w = write(to, buffer, r);
 		if (to == -1 || w == -1)
 		{
