@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <lists.h>
+
 /**
  * print_distinct - print all the elements of a 
  * dlistint_t list
